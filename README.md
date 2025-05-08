@@ -19,8 +19,8 @@ A responsive online CV built with HTML5, CSS3 and JavaScript. It features a vert
 
 ## License Notes
 
-- Fonts are served by Google Fonts under the [Open Font License](https://scripts.sil.org/OFL).
-- LinkedIn icon is from [Bootstrap Icons](https://icons.getbootstrap.com/), licensed under MIT.
+- Fonts are served by Google Fonts.
+- LinkedIn icon is from Bootstrap Icons.
 - The Xing icon is a W3C-compliant SVG, assumed free for public use. Please ensure compliance if reused.
 
 
