@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Allgemeines Styling */
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif; /* Klar und modern */
+    background-color: #f0f8ff; /* Helles Blau */
+    color: #f8f8ff; /* Weißton */
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive; /* Kreativ für die Überschriften */
+}
+
+/* Header */
+header {
+    background-color: #445744; /* Pfefferminzgrün */
+    text-align: center;
+    padding: 1.5rem;
+}
+
+nav {
+    background-color: #597a6b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+nav a {
+    color: #f8f8ff;
+    padding-right: 1em;
+    text-decoration: none; /* Entfernt Unterstreichung */
+}
+
+nav a:hover {
+    font-weight: 800;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+}
+
+/* Sektionen */
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 2px solid #445744; /* Trennlinie in Pfefferminzgrün */
+    border-radius: 8px; /* Abgerundete Ecken */
+    background-color: #e0ffff; /* Sehr helles Blau für Kontrast */
+    color: #445744;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatten für Tiefe */
+}
+
+
+/* Styling des gesamten Werdegang-Abschnitts */
+#career-timeline {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #e0ffff; /* Helles Blau */
+    border-radius: 8px; /* Abgerundete Ecken */
+}
+
+/* Zeitstrahl: vertikale Linie und allgemeine Struktur */
+.timeline {
+    position: relative;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    border-left: 4px solid #a0e5a0; /* Pfefferminzgrüne Linie */
+}
+
+/* Einzelne Zeitstrahl-Elemente: Abstand und Position */
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+/* Runde Markierungspunkte an der Timeline */
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    background-color: #a0e5a0; /* Pfefferminzgrün */
+    border-radius: 50%; /* Kreisform */
+    border: 2px solid #f8f8ff; /* Weißer Rand */
+}
+
+/* Boxen für die Inhalte der Timeline */
+.timeline-content {
+    background-color: #f8f8ff; /* Weißer Hintergrund */
+    padding: 1rem;
+    border-radius: 8px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatteneffekt */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Weiche Übergänge */
+}
+
+/* Interaktion: Wenn die Maus über eine Box fährt */
+.timeline-content:hover {
+    transform: translateY(-5px); /* Box hebt sich leicht nach oben */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Intensiverer Schatten */
+    background-color: #e0f7fa; /* Leichte Farbänderung */
+}
+
+
+/* Firmennamen: Titel in den Boxen */
+.timeline-content h3 {
+    margin-top: 0;
+    color: #005f73; /* Dunkler Farbton */
+}
+
+/* Styling für den Kontakt-Bereich */
+#contact {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #e0ffff; /* Heller Hintergrund */
+    border-radius: 8px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #005f73; /* Dunkler Farbton für Überschrift */
+}
+
+/* Liste im Kontakt-Bereich */
+#contact ul {
+    list-style-type: none; /* Entfernt Aufzählungspunkte */
+    padding: 0; /* Kein zusätzlicher Abstand */
+    display: flex; /* Elemente nebeneinander anordnen */
+    justify-content: center; /* Zentriert die Elemente */
+    flex-wrap: wrap; /* Erlaubt Umbruch bei kleinen Bildschirmen */
+}
+
+/* Einzelne Listenelemente */
+#contact li {
+    margin: 0 1rem; /* Abstand zwischen den Kontaktoptionen */
+}
+
+/* Links im Kontakt-Bereich */
+#contact a {
+    text-decoration: none; /* Entfernt Unterstreichung */
+    color: #028090; /* Akzentfarbe für Links */
+    font-size: 1.1rem; /* Angenehme Größe für den Text */
+    transition: color 0.3s ease; /* Sanfte Farbänderung bei Hover */
+}
+
+#contact a:hover {
+    color: #005f73; /* Dunklere Farbe bei Hover */
+}
+
+
+/* Styling für den Footer */
+#footer {
+    background-color: #2f3a2f;
+    color: #f8f8ff; /* Weißton */
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+}
+
+#footer p {
+    margin: 0.5rem 0; /* Abstand zwischen Absätzen */
+}
+
+#footer a {
+    color: #f8f8ff; /* Weißton für Links */
+    text-decoration: none; /* Entfernt Unterstreichung */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Sanfte Farbänderung bei Hover */
+}
+
+#footer a:hover {
+    color: #a0e5a0; /* Pfefferminzgrün bei Hover */
+}
+
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        font-size: 0.9rem;
+    }
+    
+    #contact ul {
+        flex-direction: column; /* Ändert die Anordnung auf vertikal */
+    }
+
+    #contact li {
+        margin: 0.5rem 0; /* Reduziert Abstand zwischen den Kontaktoptionen */
+    }
+}
