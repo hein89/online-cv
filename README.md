@@ -1,6 +1,6 @@
 # My Online CV
 
-A responsive online CV built with HTML5 and CSS3. It features a vertical career timeline, a contact section with SVG icons, a modern navigation bar, and a clean, stylish design using custom fonts.
+A responsive online CV built with HTML5, CSS3 and JavaScript. It features a vertical career timeline, a contact section with SVG icons, a modern navigation bar, and a clean, stylish design using custom fonts.
 
 ## Features
 
@@ -12,7 +12,7 @@ A responsive online CV built with HTML5 and CSS3. It features a vertical career 
 
 ## Technologies Used
 
-- HTML5 & CSS3  
+- HTML5, CSS3 and JavaScript
 - Responsive layout with media queries  
 - Google Fonts: Raleway, Poppins, Orbitron, Nunito  
 - SVG icons: LinkedIn (via Bootstrap Icons, MIT), Xing (W3C-compatible)
@@ -27,4 +27,4 @@ A responsive online CV built with HTML5 and CSS3. It features a vertical career 
 ## Live Demo
 
 View the live version of this project here:  
-👉 [https://https://hein89.github.io/online-cv/#contact](https://https://hein89.github.io/online-cv/#contact)
+👉 [https://hein89.github.io/online-cv/](https://hein89.github.io/online-cv/)
