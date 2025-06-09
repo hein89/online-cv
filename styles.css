@@ -55,8 +55,11 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatten für Tiefe */
 }
 
+li {
+    line-height: 1.5; /* Erhöht den Abstand zwischen den Zeilen */
+}
 
-/* Styling des gesamten Werdegang-Abschnitts */
+/***** Styling des gesamten Werdegang-Abschnitts *****/
 #career-timeline {
     margin: 2rem 0;
     padding: 1.5rem;
@@ -108,11 +111,73 @@ section {
     background-color: #e0f7fa; /* Leichte Farbänderung */
 }
 
-
 /* Firmennamen: Titel in den Boxen */
 .timeline-content h3 {
     margin-top: 0;
     color: #005f73; /* Dunkler Farbton */
+}
+
+
+/***** Skills-Abschnitt *****/
+#skills {
+    padding: 1rem;
+    background-color: #f8f8ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#skills h3 {
+    margin-top: 1.5rem;
+    color: #028090;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul ul {
+    margin-left: 1.5rem;
+    list-style-type: disc;
+}
+
+.toggle {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
+}
+    
+.content {
+    display: none;
+    margin-left: 10px;
+}
+
+/* Boxen für Skills*/
+.skill-category {
+    background-color: #f8f8ff; /* Weißer Hintergrund */
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 8px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatteneffekt */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Weiche Übergänge */
+    cursor: pointer; /* Die gesamte Box wird klickbar */
+}
+
+/* Interaktion: Wenn die Maus über eine Skill-Kategorie fährt */
+.skill-category:hover {
+    transform: translateY(-5px); /* Hebt sich leicht nach oben */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Intensiverer Schatten */
+    background-color: #e0f7fa; /* Farbänderung für sanften Effekt */
+}
+
+.content {
+    display: none; /* Anfangszustand: Inhalte versteckt */
+}
+
+/* Animation für das Öffnen */
+.skill-category.active .content {
+    display: block;
 }
 
 /* Styling für den Kontakt-Bereich */
@@ -178,6 +243,7 @@ section {
 #footer a:hover {
     color: #a0e5a0; /* Pfefferminzgrün bei Hover */
 }
+
 
 
 /* Responsiveness */
