@@ -77,8 +77,9 @@ li {
     height: auto;
     border-radius: 2%; /* Rundes Bild */
     flex-shrink: 0; /* Verhindert, dass das Bild schrumpft */
+    margin-right: 7rem;
+    margin-left: 7rem;
 }
-
 
 /***** Styling des gesamten Werdegang-Abschnitts *****/
 #career-timeline {
