@@ -27,7 +27,7 @@ nav {
     color: white;
     padding: 10px;
     text-align: center;
-  }
+}
 
 nav a {
     color: #f8f8ff;
@@ -58,6 +58,27 @@ section {
 li {
     line-height: 1.5; /* Erhöht den Abstand zwischen den Zeilen */
 }
+
+/* About Me */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.about-text {
+    flex: 1; /* Damit der Text den verfügbaren Platz nutzt */
+}
+
+
+.profile-pic {
+    max-width: 15rem; /* Größe des Bildes */
+    height: auto;
+    border-radius: 2%; /* Rundes Bild */
+    flex-shrink: 0; /* Verhindert, dass das Bild schrumpft */
+}
+
 
 /***** Styling des gesamten Werdegang-Abschnitts *****/
 #career-timeline {
@@ -273,4 +294,15 @@ li {
     #contact li {
         margin: 0.5rem 0; /* Reduziert Abstand zwischen den Kontaktoptionen */
     }
+
+     .about-container {
+        flex-direction: column; /* Wechsel zu vertikaler Anordnung */
+        align-items: center;
+    }
+
+    .profile-pic {
+        margin-top: 15px; /* Fügt Abstand nach unten hinzu */
+    }
+
+    
 }
