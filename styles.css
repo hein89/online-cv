@@ -102,6 +102,7 @@ li {
     border-radius: 8px; /* Abgerundete Ecken */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatteneffekt */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Weiche Übergänge */
+    cursor: pointer; /* Die gesamte Box wird klickbar */
 }
 
 /* Interaktion: Wenn die Maus über eine Box fährt */
@@ -114,7 +115,7 @@ li {
 /* Firmennamen: Titel in den Boxen */
 .timeline-content h3 {
     margin-top: 0;
-    color: #005f73; /* Dunkler Farbton */
+    color: #005f73; /* Dunkler Farbton */  
 }
 
 
@@ -153,7 +154,7 @@ li {
     margin-left: 10px;
 }
 
-/* Boxen für Skills*/
+/* Boxen für Skills */
 .skill-category {
     background-color: #f8f8ff; /* Weißer Hintergrund */
     padding: 1rem;
@@ -179,6 +180,16 @@ li {
 .skill-category.active .content {
     display: block;
 }
+
+.timeline-content.active .content {
+    display: block;
+}
+
+.identation {
+    padding-left: 4rem;
+     margin-top: -15px; /* Reduziert den Abstand zwischen den Listen */
+}
+
 
 /* Styling für den Kontakt-Bereich */
 #contact {
@@ -243,7 +254,6 @@ li {
 #footer a:hover {
     color: #a0e5a0; /* Pfefferminzgrün bei Hover */
 }
-
 
 
 /* Responsiveness */

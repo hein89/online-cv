@@ -7,3 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const careerStep = document.querySelectorAll(".timeline-content");
+
+    careerStep.forEach(element => {
+        element.addEventListener("click", () => {
+            element.classList.toggle("active"); // Toggle öffnet/schließt Inhalt
+        });
+    });
+});
