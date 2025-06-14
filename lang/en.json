@@ -4,10 +4,10 @@
   "nav.about.me": "About Me",
   "nav.career.timeline": "Career",
   "nav.skills": "Skills",
-  "nav.learning.goals": "Learning and Development Goals",
+  "nav.dev.goals": "Development Goals",
   "nav.hobbies": "Hobbies",
   "nav.contact": "Contact",
-  
+
   "about.text1": "Hey! I am a dedicated and versatile IT consultant with solid hands-on experience in frontend development, particularly with Angular.",
   "about.text2": "I possess a strong foundation in building modern web applications, along with initial experience in backend development using Spring Boot (Java).",
   "about.text3": "Solution-oriented and passionate about full-stack development, I strive to continuously expand my skills in backend technologies and DevOps.",
@@ -84,7 +84,7 @@
   "performance.testing": "Performance Testing: ",
   "performance.testing.description": "Creation of dynamic test scenarios to evaluate the performance of an application system (response times, error rate) using Apache JMeter",
 
-  "learning.goals": "Learning and Development Goals",
+  "development.goals": "Development Goals",
   "fullstack.dev": "Full-Stack Development",
   "learning.item1": "Deepening backend expertise in Spring Boot",
   "learning.item2": "Learning Node.js to complement the JavaScript stack",

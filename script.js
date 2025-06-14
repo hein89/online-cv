@@ -43,5 +43,5 @@ document.getElementById('lang-en').addEventListener('click', () => loadLanguage(
 document.getElementById('lang-de').addEventListener('click', () => loadLanguage('de'));
 
 // Initiale Sprache laden
-loadLanguage('en');
+loadLanguage('de');
  
