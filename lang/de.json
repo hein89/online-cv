@@ -4,7 +4,7 @@
   "nav.about.me": "Über mich",
   "nav.career.timeline": "Werdegang",
   "nav.skills": "Fähigkeiten",
-  "nav.learning.goals": "Lern- und Entwicklungsziele",
+  "nav.dev.goals": "Entwicklungsziele",
   "nav.hobbies": "Hobbys",
   "nav.contact": "Kontakt",
 
@@ -84,7 +84,7 @@
   "performance.testing": "Performance Testing: ",
   "performance.testing.description": "Erstellung dynamischer Testszenarien zur Bewertung der Leistungsfähigkeit eines Anwendungssystems (Antwortzeiten, Fehlerrate) mittels Apache JMeter",
   
-  "learning.goals": "Lern- und Entwicklungsziele",
+  "development.goals": "Entwicklungsziele",
   "fullstack.dev": "Fullstack-Entwicklung",
   "learning.item1": "Vertiefung der Backend-Expertise in Spring Boot",
   "learning.item2": "Erlernen von Node.js zur Ergänzung des JavaScript-Stacks",
