@@ -52,7 +52,7 @@ nav a:hover {
     width: 35px; /* Größe wie ein kleiner Daumenabdruck */
     height: 35px;
     border-radius: 50%; /* Macht die Buttons rund */
-    background-color: #597a6b; /* Deine Designfarbe */
+    background-color: #597a6b;
     color: #f8f8ff;
     border: none;
     font-size: 1rem;
@@ -317,7 +317,6 @@ li {
 
     nav {
         flex-direction: column; /* Setzt die Links untereinander */
-        align-items: flex-start; /* Links ausrichten */
     }
     
     nav a {
