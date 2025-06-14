@@ -39,6 +39,31 @@ nav a:hover {
     font-weight: 800;
 }
 
+/* Sprachen Switcher */
+#language-switcher {
+    display: flex;
+    justify-content: flex-end; /* Positioniert die Buttons rechts */
+    gap: 15px; /* Sorgt für gleichmäßigen Abstand */
+    margin-top: 10px; /* Abstand vom Titel */
+}
+
+#language-switcher button {
+    background-color: #597a6b;
+    color: #f8f8ff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#language-switcher button:hover {
+    background-color: #436356; /* Dunklere Farbe für Hover-Effekt */
+}
+
+
 /* Main */
 main {
     padding: 2rem;
@@ -75,7 +100,7 @@ li {
 .profile-pic {
     max-width: 15rem; /* Größe des Bildes */
     height: auto;
-    border-radius: 2%; /* Rundes Bild */
+    border-radius: 5px; /* Rundes Bild */
     flex-shrink: 0; /* Verhindert, dass das Bild schrumpft */
     margin-right: 7rem;
     margin-left: 7rem;
@@ -303,6 +328,14 @@ li {
 
     .profile-pic {
         margin-top: 15px; /* Fügt Abstand nach unten hinzu */
+    }
+
+    #language-switcher {
+        flex-direction: column; /* Setzt die Buttons untereinander */
+    }
+
+    #language-switcher button {
+        width: 100%; /* Buttons füllen die Breite aus */
     }
 
     
