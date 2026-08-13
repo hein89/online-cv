@@ -14,9 +14,16 @@
   "about.text4": "I'm also a proactive learner, constantly working to broaden and deepen my technological expertise.",
 
   "career": "Career",
+  "assecor": "Assecor GmbH",
+  "software.developer": "Software Developer",
+  "timeline.text0": "Since Mar 2026",
+  "assecor.task1": "Frontend development using Angular, Tailwind CSS, and Jest",
+  "assecor.task2": "End-to-End (E2E) testing with Cypress and Cucumber BDD",
+  "assecor.task3": "Agile software development according to Scrum",
+  "assecor.task4": "Working within a Monorepo architecture",
   "devoteam": "Devoteam GmbH",
   "it.consultant": "IT Consultant",
-  "timeline.text1": "Since Oct 2018",
+  "timeline.text1": "Oct 2018 – Jul 2025",
   "devoteam.task1": "Frontend development with Angular",
   "devoteam.task2": "Scrum Master training (PSM I)",
   "devoteam.task3": "AWS Certified Cloud Practitioner training",
@@ -98,5 +105,7 @@
   "hobbies.item2": "Audio books & podcasts",
   "hobbies.item3": "PC builds & gaming",
 
-  "title.footer": "Every line of code I write is a step further on my journey."
+  "title.footer": "Every line of code I write is a step further on my journey.",
+  
+  "contact": "Contact"
 }
